@@ -1,0 +1,115 @@
+.grid {
+  display: grid;
+  width: 990px;
+  height: 600px;
+  font-style: italic;
+  background-color: rgb(252, 109, 6);
+  grid-template-areas:
+    "n1 n3 n4 n5 n6 n7"
+    "n8 n9 n10 n2 n2 n11"
+    "n12 n13 n14 n2 n2 n15"
+    "n16 n17 n18 n19 n20 n21";
+}
+
+.grid p {
+  width: 150px;
+  height: 100px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(243, 231, 220);
+  color: chocolate;
+  text-align: center;
+}
+
+.num1 {
+  grid-area: n1;
+}
+
+.num2 {
+  grid-area: n2;
+  background-color: rgb(41, 77, 41);
+  width: 300px;
+  height: 270px;
+}
+
+.num2 p {
+  color: white;
+  background-color: rgb(41, 77, 41);
+  margin: 110px 70px;
+}
+
+.num3 {
+  grid-area: n3;
+}
+
+.num4 {
+  grid-area: n4;
+}
+
+.num5 {
+  grid-area: n5;
+}
+
+.num6 {
+  grid-area: n6;
+}
+
+.num7 {
+  grid-area: n7;
+}
+
+.num8 {
+  grid-area: n8;
+}
+
+.num9 {
+  grid-area: n9;
+}
+
+.num10 {
+  grid-area: n10;
+}
+
+.num11 {
+  grid-area: n11;
+}
+
+.num12 {
+  grid-area: n12;
+}
+
+.num13 {
+  grid-area: n13;
+}
+
+.num14 {
+  grid-area: n14;
+}
+
+.num15 {
+  grid-area: n15;
+}
+
+.num16 {
+  grid-area: n16;
+}
+
+.num17 {
+  grid-area: n17;
+}
+
+.num18 {
+  grid-area: n18;
+}
+
+.num19 {
+  grid-area: n19;
+}
+
+.num20 {
+  grid-area: n20;
+}
+
+.num21 {
+  grid-area: n21;
+}

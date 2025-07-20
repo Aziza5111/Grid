@@ -1,0 +1,86 @@
+.grid-showcase {
+  display: grid;
+  grid-template-areas:
+    "header1 header2"
+    "sidebar1 main "
+    "sidebar2 footer ";
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 50px;
+  width: 1000px;
+  height: 500px;
+  gap: 15px;
+}
+
+.grid-showcase div {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.header1 {
+  grid-area: header1;
+  background-color: lightblue;
+  width: 200px 50px;
+  font-size: 20;
+}
+
+.header2 {
+  grid-area: header2;
+  background-color: lightgreen;
+  width: 1fr 50px;
+}
+
+.header1 p {
+  margin-top: 10px;
+}
+
+.header2 p {
+  margin-top: 10px;
+}
+
+.sidebar1 {
+  grid-area: sidebar1;
+  background-color: lightcoral;
+  width: 200px;
+  height: 210px;
+}
+
+.sidebar2 {
+  grid-area: sidebar2;
+  background-color: rgb(233, 233, 24);
+  width: 200px;
+  height: 210px;
+  margin-top: -170px;
+}
+
+.sidebar1 p {
+  margin-top: 80px;
+}
+
+.sidebar2 p {
+  margin-top: 80px;
+}
+
+.main {
+  grid-area: main;
+  background-color: lightgray;
+  width: 1fr;
+  height: 350px;
+}
+
+.main p {
+  margin-top: 150px;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: lightsalmon;
+  width: 1fr;
+  height: 50px;
+  margin-top: -15px;
+}
+
+.footer p {
+  margin-top: 10px;
+}

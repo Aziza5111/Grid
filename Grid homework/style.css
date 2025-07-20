@@ -1,0 +1,125 @@
+.grid-container {
+  display: grid;
+  width: 700px;
+  height: 500px;
+  grid-template-areas:
+    "p p g g c c "
+    "a a lp lp dp dp"
+    "g2 g2 c2 c2 r1 r1"
+    "r2 r2 r3 r3 w w";
+}
+
+.purple {
+  background-color: rgb(196, 9, 196);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: p;
+  width: 250px;
+  height: 200px;
+}
+
+.grey {
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: g;
+  width: 250px;
+  height: 200px;
+}
+
+.cadetblue {
+  background-color: cadetblue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: c;
+  width: 250px;
+  height: 200px;
+}
+
+.aquamarine {
+  background-color: aquamarine;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: a;
+  width: 250px;
+  gap: 150px;
+}
+
+.lightpurple {
+  background-color: rgb(142, 88, 142);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: lp;
+  width: 250px;
+  gap: 150px;
+}
+
+.darkpurple {
+  background-color: rgb(196, 9, 196);
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: dp;
+  width: 250px;
+  gap: 150px;
+}
+
+.grey2 {
+  background-color: grey;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: g2;
+  width: 250px;
+  gap: 150px;
+}
+
+.cadetblue2 {
+  background-color: cadetblue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: c2;
+  width: 250px;
+  gap: 150px;
+}
+
+.red1 {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: r1;
+  width: 250px;
+  gap: 150px;
+}
+
+.red2 {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: r2;
+  width: 250px;
+  height: 200px;
+}
+
+.red3 {
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  grid-area: r3;
+  width: 250px;
+  height: 200px;
+}
+
+.white {
+  background-color: white;
+  grid-area: w;
+}
